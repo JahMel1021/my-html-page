@@ -1,0 +1,40 @@
+/* Overall page style */
+body {
+    background-color: #f0f4f8;
+    color: #243447;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+}
+
+/* Heading style */
+h1 {
+    color: #075985;
+    text-align: center;
+    padding: 15px;
+    border: 3px solid #075985;
+    margin-bottom: 25px;
+}
+
+/* Class selector */
+.content {
+    background-color: white;
+    padding: 20px;
+    margin: 20px 0;
+    border: 2px solid #38bdf8;
+    border-radius: 10px;
+}
+
+/* ID selector */
+#about {
+    background-color: #dbeafe;
+    padding: 15px;
+    margin: 15px 0;
+    border: 2px solid #075985;
+}
+
+/* Navigation links */
+a {
+    color: #075985;
+    font-weight: bold;
+}
