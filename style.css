@@ -33,6 +33,67 @@ h1 {
     border: 2px solid #075985;
 }
 
+
+/* HOMEWORK 2 - RESPONSIVE LAYOUT */
+
+/* Make sizing easier */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+}
+
+/* Main page layout */
+main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Sections and articles */
+section, article {
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    min-width: 0;
+}
+
+/* Images fit their space */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Tablet and mobile layout */
+@media (max-width: 768px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+
+    body {
+        padding: 12px;
+    }
+
+    section, article {
+        padding: 15px;
+    }
+}
+
+/* Small phone layout */
+@media (max-width: 320px) {
+    body {
+        padding: 8px;
+    }
+
+    section, article {
+        padding: 10px;
+    }
+}
 /* Navigation links */
 a {
     color: #075985;
